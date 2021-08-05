@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "command": "explorer",    
+    "windows": {
+        "command": "explorer.exe"
+    },
+    "args": [
+        "login.html"
+    ],
+    "tasks": [
+        {
+            "label": "explorer.exe",
+            "args": [
+                "login.html"
+            ],
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+}
